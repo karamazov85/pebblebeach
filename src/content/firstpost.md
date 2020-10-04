@@ -4,33 +4,21 @@ teaser: An award-winning postal worker went to shop...
 author: Adam
 date: july 14 2020
 featured: false
+imageUrl: ../images/a-day-in-england.jpg
 ---
 
-Without overthinking  
-let’s just understand
+An award-winning postal worker  
+went to shop – but not to any shop  
+An award-winning pencil retailer  
+selling award-winning stock.  
+He picked up his prize-winning pet  
+at the award-winning pet hotel  
+and picked award-winning dog shit  
+on the way to his award-winning hovel  
+in a multi-award-winning development  
+next to the acclaimed motorway  
+Then watched award-winning adult content  
+on his freshly-awarded holiday.
 
-the overeducated underachievers  
-who overpopulate the understory
-
-the underestimated overconfident  
-who have overrun all under the sky
-
-the understatedly subtle, undercut  
-by the overwhelming and its hype
-
-the overused filters that overexpose  
-what underwhelms otherwise
-
-the bleak undercurrents that undermine  
-the overpowering, bullish overtones.
-
-Without overreacting  
-let’s just underscore:
-
-under-liked, I keep watching  
-over lives that we call lives
-
-and refuse to go under  
-till all this over/under
-
-is over.
+One million new awards were given away  
+elsewhere in England, that jolly dandy day.

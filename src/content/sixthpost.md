@@ -1,36 +1,33 @@
 ---
 title: Moon
-teaser: My moon is at her apogee, the farthest she can get from me
+teaser: My moon is at her apogee, the farthest she can get from me...
 author: Adam
 date: july 18 2020
 featured: false
+imageUrl: ../images/moon.jpg
 ---
 
-Without overthinking  
-let’s just understand
+My moon is at her apogee  
+The farthest she can get from me  
+Is it something that I said?  
+A silent friction that we had?
 
-the overeducated underachievers  
-who overpopulate the understory
+Look how quickly her smile fades  
+How steadily she now rotates  
+to turn her mild, celestial face  
+to empty wall, to empty space
 
-the underestimated overconfident  
-who have overrun all under the sky
+Little Moon, my Little Moon  
+Come back to rise in my lagoon  
+My howling wolves are all on fire  
+My tidal patterns go haywire
 
-the understatedly subtle, undercut  
-by the overwhelming and its hype
+Luckily, moons can be bribed  
+after they have sulked and cried  
+Gifts, kisses, massage – and then  
+the masses may converge again
 
-the overused filters that overexpose  
-what underwhelms otherwise
-
-the bleak undercurrents that undermine  
-the overpowering, bullish overtones.
-
-Without overreacting  
-let’s just underscore:
-
-under-liked, I keep watching  
-over lives that we call lives
-
-and refuse to go under  
-till all this over/under
-
-is over.
+Just remember: love is the Force  
+that draws gravitational course  
+My moon is back, at perigee  
+As close as she can get to me

@@ -1,36 +1,24 @@
 ---
-title: The interview
-teaser: Camera, sound roll, take 1!
+title: Cookies
+teaser: To find a spare kitchen in the mind...
 author: Adam
 date: july 17 2020
 featured: false
+imageUrl: ../images/cookies.jpg
 ---
 
-Without overthinking  
-let’s just understand
+To find a spare kitchen in the mind,  
+a spare cupboard – or a cookie jar  
+for the sugar rush of sound
 
-the overeducated underachievers  
-who overpopulate the understory
+whirls of vowels caking into rhyme  
+rhythm to toss them in and out of time  
+drizzles of doubt to rain onto it all
 
-the underestimated overconfident  
-who have overrun all under the sky
+a nook for nuggets  
+a crevice for crumbs  
+a cranny for the cookies
 
-the understatedly subtle, undercut  
-by the overwhelming and its hype
-
-the overused filters that overexpose  
-what underwhelms otherwise
-
-the bleak undercurrents that undermine  
-the overpowering, bullish overtones.
-
-Without overreacting  
-let’s just underscore:
-
-under-liked, I keep watching  
-over lives that we call lives
-
-and refuse to go under  
-till all this over/under
-
-is over.
+to feed inside that something  
+that all the worldly yummies  
+leave forever wanting

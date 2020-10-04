@@ -1,33 +1,23 @@
 .container {
   width: 100%;
-
-  background-color: rgb(245, 246, 250, 0.5);
-}
-
-.container::after {
-  content: "";
-  position: absolute;
-  top: 80px;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
-  z-index: -1;
-  opacity: 0.4;
+  height: 100vh;
   background-image: url("../images/pebbles.jpg");
   background-size: cover;
-  background-position: bottom;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .about-container {
-  width: 70%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  width: 60%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
+  background-color: rgb(245, 246, 250, 0.8);
+  border-radius: 8px;
+  padding: 50px 50px;
+  margin-left: 10%;
 }
 
 h1 {
@@ -39,4 +29,21 @@ h1 {
   font-family: "Open Sans", sans-serif;
   font-size: 1rem;
   line-height: 140%;
+}
+
+@media only screen and (max-width: 925px) {
+  .about-container {
+    margin-left: 5%;
+  }
+}
+
+@media only screen and (max-width: 653px) {
+  .container {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-container {
+    margin-left: 0%;
+  }
 }

@@ -4,8 +4,7 @@ import "./footer.css";
 const Footer = () => {
   return (
     <div className="footer">
-      <hr></hr>
-      <h6>All Rights Reserved. 2020. Done with React.</h6>
+      <h6>All rights reserved. Done with React.</h6>
     </div>
   );
 };

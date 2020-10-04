@@ -1,7 +1,7 @@
 .featured-container {
   height: 60vh;
   position: relative;
-  background-color: rgb(245, 246, 250, 0.5);
+  background-color: rgb(245, 246, 250, 0.2);
 }
 
 .featured-container::after {
@@ -11,7 +11,7 @@
   bottom: 0px;
   left: 0px;
   right: 0px;
-  opacity: 0.3;
+  opacity: 0.9;
   background-image: url("../images/pebbles.jpg");
   background-position: center;
   background-size: cover;
@@ -20,13 +20,16 @@
 
 .featured-text {
   position: absolute;
-  top: 25%;
+  top: calc((425px - 295px) / 2);
   left: 10%;
   overflow: hidden;
   height: 60%;
   width: 60%;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
+  background-color: rgb(245, 246, 250, 0.8);
+  border-radius: 8px;
+  padding: 30px 30px;
 }
 
 /* .featured-title {
@@ -61,39 +64,39 @@
 
 @media only screen and (max-width: 870px) {
   .featured-text {
-    top: 25%;
+    top: calc((425px - 295px) / 2);
     left: 10%;
-    height: 75%;
-    width: 80%;
-    align-items: center;
-  }
-
-  .featured-quote-sign {
-    top: -20%;
+    height: 255px;
   }
 }
 
 @media only screen and (max-width: 630px) {
   .featured-text {
-    top: 25%;
-    left: 10%;
-    height: 75%;
-    width: 80%;
     align-items: center;
-  }
-
-  .featured-quote-sign {
-    top: -20%;
-    font-size: 5rem;
-  }
-
-  .featured-body {
-    font-size: 1.1rem;
+    left: 50%;
+    transform: translateX(-50%);
   }
 }
 
-@media only screen and (max-width: 389px) {
+@media only screen and (max-width: 553px) {
+  .featured-text {
+    height: 200px;
+    min-width: 300px;
+    top: calc((425px - 260px) / 2);
+  }
+
+  .featured-body {
+    font-size: 1rem;
+  }
+
   .featured-quote-sign {
     top: -25%;
+    font-size: 5rem;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .featured-body {
+    font-size: 1rem;
   }
 }

@@ -4,33 +4,23 @@ teaser: It's amazing how much pain can simply be exhaled...
 author: Adam
 date: july 19 2020
 featured: false
+imageUrl: ../images/zen.jpg
 ---
 
-Without overthinking  
-let’s just understand
+It’s awesome  
+how much pain  
+can simply be exhaled
 
-the overeducated underachievers  
-who overpopulate the understory
+along with any spectre  
+of You being the centre  
+of this universe.
 
-the underestimated overconfident  
-who have overrun all under the sky
+And because you care  
+less about a thing  
+if you’re no longer  
+at the centre of it,
 
-the understatedly subtle, undercut  
-by the overwhelming and its hype
-
-the overused filters that overexpose  
-what underwhelms otherwise
-
-the bleak undercurrents that undermine  
-the overpowering, bullish overtones.
-
-Without overreacting  
-let’s just underscore:
-
-under-liked, I keep watching  
-over lives that we call lives
-
-and refuse to go under  
-till all this over/under
-
-is over.
+You can start living  
+and stop worrying  
+about <em>not living</em>  
+and all the other shit.

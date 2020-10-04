@@ -4,6 +4,7 @@ teaser: It's usually in Season Thee that a series becomes The Slope.
 author: Adam Farkas
 date: july 12 2020
 featured: true
+imageUrl: ../images/where-TV-goes-to-die.jpg
 ---
 
 It’s usually in Season Three  

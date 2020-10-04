@@ -1,8 +1,10 @@
 .post {
   width: 90%;
-  margin: 0 auto;
-  padding-top: 40px;
+  min-height: 90vh;
+  padding-top: 60px;
   padding-bottom: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 .poem-container {
   margin: 0 auto;
@@ -26,8 +28,11 @@
 }
 
 @media only screen and (min-width: 650px) {
+  .post {
+    margin-left: 40px;
+    padding-left: 40px;
+  }
   .poem-container {
     width: 50%;
-    margin: 0 auto;
   }
 }

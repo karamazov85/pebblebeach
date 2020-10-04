@@ -4,31 +4,32 @@ teaser: Without overthinking, let’s just understand the overeducated underachi
 author: Adam
 date: july 15 2020
 featured: false
+imageUrl: ../images/over-under.jpg
 ---
 
 Without overthinking  
 let’s just understand
 
 the overeducated underachievers  
-who overpopulate the understory
+who overpopulate the land
 
-the underestimated overconfident  
-who have overrun all under the sky
+the underreported takeover  
+by the overconfident
 
-the understatedly subtle, undercut  
-by the overwhelming and its hype
+the understated, as undercut  
+by the overwhelming, the hype,
 
-the overused filters that overexpose  
+the filters that overexpose  
 what underwhelms otherwise
 
 the bleak undercurrents that undermine  
-the overpowering, bullish overtones.
+the upbeat overtones.
 
 Without overreacting  
 let’s just underscore:
 
 under-liked, I keep watching  
-over lives that we call lives
+over lives that you call lives
 
 and refuse to go under  
 till all this over/under

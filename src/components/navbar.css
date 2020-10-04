@@ -4,7 +4,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-shadow: -5px 2px 15px rgb(47, 54, 64, 0.1);
+  box-shadow: -5px 3px 15px rgb(47, 54, 64, 0.3);
+  background-color: #f5f6fa;
 }
 
 .branding {

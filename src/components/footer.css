@@ -1,4 +1,9 @@
 .footer {
   text-align: center;
   height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: -3px 2px 15px rgb(47, 54, 64, 0.3);
+  background-color: #f5f6fa;
 }
