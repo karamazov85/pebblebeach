@@ -1,0 +1,9 @@
+.whatsapp-share {
+  padding-right: 5px;
+  opacity: 0.4;
+}
+
+.whatsapp-share:hover,
+.whatsapp-share:active {
+  opacity: 1;
+}

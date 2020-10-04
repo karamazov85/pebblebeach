@@ -1,0 +1,9 @@
+.fb-share {
+  padding-right: 5px;
+  opacity: 0.4;
+}
+
+.fb-share:hover,
+.fb-share:active {
+  opacity: 1;
+}

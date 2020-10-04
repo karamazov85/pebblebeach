@@ -1,0 +1,33 @@
+.post {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.poem-container {
+  margin: 0 auto;
+}
+
+.poem-title {
+  font-family: "Libre Baskerville", serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.poem-body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  line-height: 140%;
+}
+
+.poem-share-container {
+  display: flex;
+  margin-top: 50px;
+}
+
+@media only screen and (min-width: 650px) {
+  .poem-container {
+    width: 50%;
+    margin: 0 auto;
+  }
+}

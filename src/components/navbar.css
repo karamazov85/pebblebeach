@@ -1,0 +1,71 @@
+.navbar {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: -5px 2px 15px rgb(47, 54, 64, 0.1);
+}
+
+.branding {
+  margin-left: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.branding p {
+  font-family: "Libre Baskerville", serif;
+}
+
+.site-name {
+  border-right: 1px solid #2f3640;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.site-subtitle {
+  padding-left: 10px;
+}
+
+.links-container {
+  margin-right: 40px;
+}
+
+.links-container .links {
+  margin-left: 40px;
+  padding-left: 0 5px;
+  padding-bottom: 10px;
+  font-family: "Libre Baskerville", serif;
+}
+
+.links:hover,
+.links:active {
+  border-bottom: 1px solid #2f3640;
+}
+
+@media only screen and (max-width: 630px) {
+  .branding {
+    margin-left: 20px;
+  }
+
+  .site-name {
+    width: 60px;
+    font-size: 0.8rem;
+    padding-right: 7px;
+  }
+
+  .site-subtitle {
+    font-size: 0.8rem;
+    padding-left: 7px;
+  }
+
+  .links-container {
+    margin-right: 20px;
+  }
+
+  .links-container .links {
+    margin-left: 20px;
+    font-size: 0.8rem;
+  }
+}

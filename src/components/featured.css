@@ -1,0 +1,99 @@
+.featured-container {
+  height: 60vh;
+  position: relative;
+  background-color: rgb(245, 246, 250, 0.5);
+}
+
+.featured-container::after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  opacity: 0.3;
+  background-image: url("../images/pebbles.jpg");
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+}
+
+.featured-text {
+  position: absolute;
+  top: 25%;
+  left: 10%;
+  overflow: hidden;
+  height: 60%;
+  width: 60%;
+  display: flex;
+  align-items: flex-end;
+}
+
+/* .featured-title {
+  font-family: "Libre Baskerville", serif;
+  font-size: 3rem;
+} */
+
+.featured-quote-sign {
+  position: relative;
+  top: -10%;
+  left: 0%;
+  font-family: "Libre Baskerville", serif;
+  font-size: 6rem;
+  opacity: 0.3;
+  color: #40739e;
+  z-index: 0;
+  margin-right: 5px;
+}
+
+.featured-body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5rem;
+  line-height: 140%;
+}
+
+.featured-link {
+  font-family: "Libre Baskerville", serif;
+  font-size: 0.8rem;
+  text-decoration: none;
+  color: #2f3640;
+}
+
+@media only screen and (max-width: 870px) {
+  .featured-text {
+    top: 25%;
+    left: 10%;
+    height: 75%;
+    width: 80%;
+    align-items: center;
+  }
+
+  .featured-quote-sign {
+    top: -20%;
+  }
+}
+
+@media only screen and (max-width: 630px) {
+  .featured-text {
+    top: 25%;
+    left: 10%;
+    height: 75%;
+    width: 80%;
+    align-items: center;
+  }
+
+  .featured-quote-sign {
+    top: -20%;
+    font-size: 5rem;
+  }
+
+  .featured-body {
+    font-size: 1.1rem;
+  }
+}
+
+@media only screen and (max-width: 389px) {
+  .featured-quote-sign {
+    top: -25%;
+  }
+}
