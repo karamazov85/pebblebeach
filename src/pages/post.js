@@ -7,7 +7,8 @@ import FacebookButton from "../components/FacebookButton";
 import TwitterButton from "../components/TwitterButton";
 import WhatsappButton from "../components/WhatsappButton";
 
-const Post = ({ match }) => {
+const Post = ({ match, location }) => {
+  console.log("LOCATION", location, "MATCH", match);
   const validId = parseInt(match.params.id);
 
   if (!validId) {
@@ -32,7 +33,7 @@ const Post = ({ match }) => {
     return <Redirect to="/404" />;
   }
 
-  const postUrl = "http://localhost:3000" + match.url;
+  const postUrl = "https://pebblebeach.herokuapp.com" + match.url;
 
   return (
     <div className="post">
