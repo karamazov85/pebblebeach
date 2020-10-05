@@ -9,24 +9,26 @@ const PostList = () => {
     <div className="postlist">
       {postlist.length &&
         postlist.map((post) => {
+          console.log(post);
           return (
-            <Link className="links" to={`/post/${post.id}`}>
-              <div
-                key={post.id}
-                className="post-card"
-                style={{
-                  backgroundImage: `url(${post.imageUrl})`,
-                  backgroundSize: "cover",
-                }}
-              >
-                <div className="post-card-text-container">
-                  <h2 className="postlist-post-title">{post.title}</h2>
-                  <div className="quote-teaser-container">
-                    <h1 className="quote-sign">
-                      <GoQuote />
-                    </h1>
-                    <div>
-                      <p className="teaser">{post.teaser}</p>
+            <Link className="link" to={`/post/${post.id}`}>
+              <div key={post.id} className="post-card">
+                <div
+                  className="post-card-background"
+                  style={{
+                    backgroundImage: `url(${post.imageUrl})`,
+                    backgroundSize: "cover",
+                  }}
+                >
+                  <div className="post-card-text-container">
+                    <h2 className="postlist-post-title">{post.title}</h2>
+                    <div className="quote-teaser-container">
+                      <h1 className="quote-sign">
+                        <GoQuote />
+                      </h1>
+                      <div>
+                        <p className="teaser">{post.teaser}</p>
+                      </div>
                     </div>
                   </div>
                 </div>

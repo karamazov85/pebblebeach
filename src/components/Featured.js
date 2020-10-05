@@ -11,7 +11,6 @@ const Featured = () => {
   return (
     <div className="featured-container">
       <div className="featured-text">
-        {/* <h1 className="featured-title">Over/under</h1> */}
         <h1 className="featured-quote-sign">
           <GoQuote />
         </h1>

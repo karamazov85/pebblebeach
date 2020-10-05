@@ -15,6 +15,7 @@
   align-items: flex-start;
   justify-content: center;
   background-color: rgb(245, 246, 250, 0.8);
+  box-shadow: -5px 3px 25px rgb(47, 54, 64, 0.3);
   border-radius: 8px;
   padding: 50px 50px;
   margin-left: 10%;
