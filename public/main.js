@@ -15,7 +15,6 @@ const getPosts = () => {
       let post;
 
       fs.readFile(`${dirPath}/${file}`, "utf8", (err, contents) => {
-        const lines = contents.split("\n");
 
         const getMetadataIndices = (acc, elem, i) => {
           if (/^---/.test(elem)) {
@@ -44,6 +43,7 @@ const getPosts = () => {
           }
         };
 
+        const lines = contents.split("\n");
         const metadataIndices = lines.reduce(getMetadataIndices, []);
         const metadata = parseMetadata({ lines, metadataIndices });
         const content = parseContent({ lines, metadataIndices });
@@ -61,12 +61,14 @@ const getPosts = () => {
           imageUrl: metadata.imageUrl ? metadata.imageUrl : "No image given",
           content: content ? content : "No content given",
         };
-
+        
         postlist.push(post);
+        console.log(`length of postlist: ${postlist.length}`)
         // only if you are at the LAST iteration, write the postlist array into a JSON object
-        if (i === files.length - 1) {
+        // compare length of postlist array to length of files array 
+        if (postlist.length === files.length) {
           const sortedList = postlist.sort((a, b) => b.id - a.id);
-          console.log(sortedList);
+          console.log(sortedList.length);
           let data = JSON.stringify(sortedList);
           fs.writeFileSync("src/posts.json", data); // give a path and a filename you want to call it, then write the data JSON
         }
