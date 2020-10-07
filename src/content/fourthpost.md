@@ -3,7 +3,7 @@ title: over/under
 teaser: Without overthinking, let’s just understand the overeducated underachievers who overpopulate the understory...
 author: Adam
 date: july 15 2020
-featured: true
+featured: false
 imageUrl: ../images/over-under.jpg
 ---
 
