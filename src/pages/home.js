@@ -1,6 +1,5 @@
 import React from "react";
 import PostList from "../components/PostList";
-import Navbar from "../components/Navbar";
 import Featured from "../components/Featured";
 import "./pages.css";
 

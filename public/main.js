@@ -63,11 +63,11 @@ const getPosts = () => {
         };
 
         postlist.push(post);
-        // only if you are at the LAST iteration, write the postlist array into a JSON object
-        if (i === files.length - 1) {
+        // once all files have been pushed to postlist, write the postlist array into a JSON object
+        if (postlist.length === files.length) {
           const sortedList = postlist.sort((a, b) => b.id - a.id);
-          console.log(sortedList);
           let data = JSON.stringify(sortedList);
+          console.log(sortedList);
           fs.writeFileSync("src/posts.json", data); // give a path and a filename you want to call it, then write the data JSON
         }
       });

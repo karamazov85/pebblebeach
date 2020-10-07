@@ -1,5 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./about.css";
+import instagram from "../images/instagram.png";
 
 const About = () => {
   return (
@@ -15,6 +17,16 @@ const About = () => {
             poetry should be free - just as it's sole purpose is to make us
             free.
           </p>
+          <div className="insta-container">
+            <img src={instagram} alt="instagram-logo" />
+            <a
+              href="https://www.instagram.com/adam_karamazov_farkas/?hl=en"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <p className="insta-body">@adam_karamazov_farkas</p>
+            </a>
+          </div>
         </div>
       </div>
     </div>

@@ -9,7 +9,7 @@
 }
 
 .about-container {
-  width: 60%;
+  width: 400px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -23,28 +23,110 @@
 
 h1 {
   font-family: "Libre Baskerville", serif;
+  color: #2f3640;
   font-size: 2rem;
 }
 
 .about-body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  color: #2f3640;
   font-size: 1rem;
   line-height: 140%;
 }
 
-@media only screen and (max-width: 925px) {
+.insta-container {
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.insta-container > img {
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+  margin-right: 10px;
+  color: ;
+}
+
+.insta-container > a:link,
+.insta-container > a:visited {
+  text-decoration: none;
+  color: #2f3640;
+}
+
+.insta-body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+}
+
+@media only screen and (max-width: 775px) {
   .about-container {
-    margin-left: 5%;
+    width: 400px;
+    margin-left: 10%;
   }
 }
 
-@media only screen and (max-width: 653px) {
+/* @media only screen and (max-width: 649px) {
+  .about-container {
+    width: 300px;
+  }
+} */
+
+@media only screen and (max-width: 615px) {
   .container {
-    justify-content: center;
+    height: 80vh;
     align-items: center;
   }
 
   .about-container {
+    width: 280px;
     margin-left: 0%;
+    padding: 30px 30px;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  .about-body {
+    font-size: 0.9rem;
+  }
+
+  .insta-container > img {
+    margin-right: 8px;
+  }
+
+  .insta-body {
+    font-size: 0.9rem;
+  }
+}
+
+@media only screen and (max-width: 361px) {
+  .about-container {
+    width: 220px;
+    padding: 30px 30px;
+  }
+
+  h1 {
+    font-size: 1.2rem;
+  }
+
+  .about-body {
+    font-size: 0.8rem;
+  }
+
+  .insta-container {
+    height: 20px;
+    width: 20px;
+  }
+
+  .insta-container > img {
+    margin-right: 6px;
+  }
+
+  .insta-body {
+    font-size: 0.8rem;
   }
 }

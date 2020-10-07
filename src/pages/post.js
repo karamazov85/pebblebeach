@@ -7,8 +7,7 @@ import FacebookButton from "../components/FacebookButton";
 import TwitterButton from "../components/TwitterButton";
 import WhatsappButton from "../components/WhatsappButton";
 
-const Post = ({ match, location }) => {
-  console.log("LOCATION", location, "MATCH", match);
+const Post = ({ match }) => {
   const validId = parseInt(match.params.id);
 
   if (!validId) {

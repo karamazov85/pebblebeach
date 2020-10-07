@@ -1,24 +1,25 @@
 .post {
-  width: 90%;
+  width: 100%;
   min-height: 70vh;
   padding-top: 60px;
   padding-bottom: 40px;
-  padding-left: 40px;
-  padding-right: 40px;
-}
-.poem-container {
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
 
 .poem-title {
   font-family: "Libre Baskerville", serif;
-  font-size: 2rem;
+  color: #1e2126;
+  font-size: 1.4rem;
   font-weight: bold;
+  padding-right: 30px;
+  margin-bottom: 10px;
 }
 
 .poem-body {
-  font-family: "Open Sans", sans-serif;
-  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+  color: #1e2126;
+  font-size: 0.8rem;
   line-height: 140%;
 }
 
@@ -27,12 +28,25 @@
   margin-top: 50px;
 }
 
-@media only screen and (min-width: 650px) {
+@media only screen and (max-width: 650px) {
   .post {
+    justify-content: flex-start;
     margin-left: 40px;
-    padding-left: 40px;
   }
-  .poem-container {
-    width: 50%;
+}
+
+@media only screen and (max-width: 450px) {
+  .post {
+    margin-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 361px) {
+  .poem-title {
+    font-size: 1.1rem;
+  }
+
+  .poem-body {
+    font-size: 0.7rem;
   }
 }

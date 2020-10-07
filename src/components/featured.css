@@ -1,5 +1,5 @@
 .featured-container {
-  height: 60vh;
+  height: 50vh;
   position: relative;
   background-color: rgb(245, 246, 250, 0.2);
 }
@@ -20,29 +20,26 @@
 
 .featured-text {
   position: absolute;
-  top: calc((425px - 295px) / 2);
+  top: calc((50vh - 295px) / 2);
   left: 10%;
   overflow: hidden;
-  height: 60%;
-  width: 60%;
+  height: 250px;
+  width: 40%;
+  min-width: 356px;
   display: flex;
   align-items: center;
   background-color: rgb(245, 246, 250, 0.8);
   box-shadow: -5px 3px 25px rgb(47, 54, 64, 0.3);
   border-radius: 8px;
-  padding: 30px 30px;
+  padding: 20px 30px;
 }
-
-/* .featured-title {
-  font-family: "Libre Baskerville", serif;
-  font-size: 3rem;
-} */
 
 .featured-quote-sign {
   position: relative;
   top: -10%;
   left: 0%;
   font-family: "Libre Baskerville", serif;
+  color: #2f3640;
   font-size: 6rem;
   opacity: 0.3;
   color: #40739e;
@@ -51,15 +48,15 @@
 }
 
 .featured-body {
-  font-family: "Libre Baskerville", serif;
-  font-size: 1.5rem;
+  max-width: 356px;
+  font-family: "Montserrat", serif;
+  font-weight: 400;
+  font-size: 1rem;
   line-height: 140%;
 }
 
 a:link,
 a:visited {
-  font-family: "Libre Baskerville", serif;
-  font-size: 0.8rem;
   text-decoration: none;
   color: #2f3640;
 }
@@ -68,33 +65,42 @@ a:hover,
 a:active {
   text-decoration: none;
   cursor: pointer;
+  color: #2f3640;
+}
+
+.featured-link-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.8rem;
+  color: #2f3640;
+  margin-bottom: 0px;
 }
 
 @media only screen and (max-width: 870px) {
   .featured-text {
-    top: calc((425px - 295px) / 2);
-    left: 10%;
-    height: 255px;
+    height: 250px;
+    top: calc((50vh - 290px) / 2);
+    padding: 20px 30px;
   }
 }
 
-@media only screen and (max-width: 630px) {
+@media only screen and (max-width: 604px) {
   .featured-text {
     align-items: center;
     left: 50%;
     transform: translateX(-50%);
+    height: 200px;
+    top: calc((50vh - 240px) / 2);
   }
 }
 
-@media only screen and (max-width: 553px) {
+@media only screen and (max-width: 445px) {
   .featured-text {
-    height: 200px;
-    min-width: 300px;
-    top: calc((425px - 260px) / 2);
+    min-width: 280px;
+    top: calc((50vh - 240px) / 2);
   }
 
   .featured-body {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 
   .featured-quote-sign {
@@ -103,8 +109,24 @@ a:active {
   }
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 361px) {
+  .featured-text {
+    height: 180px;
+    width: 220px;
+    top: calc((50vh - 200px) / 2);
+    padding: 10px 10px;
+  }
+
   .featured-body {
-    font-size: 1rem;
+    font-size: 0.8rem;
+  }
+
+  .featured-quote-sign {
+    top: -25%;
+    font-size: 3rem;
+  }
+
+  .featured-link-text {
+    font-size: 0.7rem;
   }
 }

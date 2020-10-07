@@ -16,6 +16,7 @@
 
 .branding p {
   font-family: "Libre Baskerville", serif;
+  color: #2f3640;
 }
 
 .site-name {
@@ -27,25 +28,33 @@
 
 .site-subtitle {
   padding-left: 10px;
+  color: #2f3640;
 }
 
 .links-container {
   margin-right: 40px;
 }
 
-.links-container .links {
+.links-container a {
   margin-left: 40px;
   padding-left: 0 5px;
   padding-bottom: 10px;
   font-family: "Libre Baskerville", serif;
+  font-size: 16px;
 }
 
-.links:hover,
-.links:active {
+.links-container a:link,
+.links-container a:visited {
+  text-decoration: none;
+  color: #2f3640;
+}
+
+.links-container a:hover,
+.links-container a:active {
   border-bottom: 1px solid #2f3640;
 }
 
-@media only screen and (max-width: 630px) {
+@media only screen and (max-width: 650px) {
   .branding {
     margin-left: 20px;
   }
