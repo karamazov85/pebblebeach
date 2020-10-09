@@ -1,10 +1,16 @@
 .post {
   width: 100%;
-  min-height: 70vh;
-  padding-top: 60px;
-  padding-bottom: 40px;
+  min-height: 90vh;
+  padding-top: 0px;
+  padding-bottom: 20px;
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+.poem-container {
+  padding-bottom: 40px;
+  padding-top: 40px;
 }
 
 .poem-title {
@@ -12,36 +18,57 @@
   color: #1e2126;
   font-size: 1.4rem;
   font-weight: bold;
-  padding-right: 30px;
+  padding-right: 0px;
   margin-bottom: 10px;
 }
 
 .poem-body {
   font-family: "Montserrat", sans-serif;
   color: #1e2126;
-  font-size: 0.8rem;
-  line-height: 140%;
+  font-size: 0.9rem;
+  line-height: 160%;
 }
 
 .poem-share-container {
   display: flex;
-  margin-top: 50px;
+  margin-top: 40px;
+  margin-bottom: 50px;
 }
 
 @media only screen and (max-width: 650px) {
   .post {
+    min-height: 50vh;
     justify-content: flex-start;
-    margin-left: 40px;
+  }
+  .poem-container {
+    margin-left: 20px;
   }
 }
 
 @media only screen and (max-width: 450px) {
   .post {
-    margin-right: 20px;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .poem-container {
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+  .poem-title {
+    font-size: 1.1rem;
+  }
+
+  .poem-body {
+    font-size: 0.7rem;
   }
 }
 
 @media only screen and (max-width: 361px) {
+  .poem-container {
+    margin-left: 20px;
+  }
+
   .poem-title {
     font-size: 1.1rem;
   }

@@ -2,7 +2,7 @@
 title: World Nothing Day
 teaser: Happy World Nothing Day!
 author: Adam
-date: oct 6 2020
+date: oct 1 2020
 featured: false
 imageUrl: ../images/world-nothing-day.jpg
 ---

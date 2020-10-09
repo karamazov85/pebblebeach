@@ -2,7 +2,7 @@
 title: First touch
 teaser: It’s the warmth of a body, through a blouse, a shirt.
 author: Adam
-date: oct 9 2020
+date: oct 8 2020
 featured: false
 imageUrl: ../images/first-touch.jpg
 ---

@@ -2,7 +2,7 @@
 title: A day in England
 teaser: An award-winning postal worker went to shop.
 author: Adam
-date: july 14 2020
+date: july 1 2020
 featured: false
 imageUrl: ../images/a-day-in-england.jpg
 ---

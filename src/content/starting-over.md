@@ -2,7 +2,7 @@
 title: Starting over
 teaser: All summits become plateaus over time.
 author: Adam
-date: oct 9 2020
+date: oct 5 2020
 featured: false
 imageUrl: ../images/starting-over.jpg
 ---

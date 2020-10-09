@@ -2,7 +2,7 @@
 title: Snowflake Manifesto
 teaser: We don’t mind the insult, but get the order right.
 author: Adam
-date: oct 9 2020
+date: oct 6 2020
 featured: false
 imageUrl: ../images/snowlflake-manifesto.jpg
 ---

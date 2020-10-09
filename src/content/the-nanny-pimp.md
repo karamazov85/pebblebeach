@@ -1,8 +1,8 @@
 ---
-title: The Nanny Pimp
+title: The nanny pimp
 teaser: My wife works as a nanny and I’m her nanny pimp.
 author: Adam
-date: oct 9 2020
+date: oct 3 2020
 featured: false
 imageUrl: ../images/the-nanny-pimp.jpg
 ---

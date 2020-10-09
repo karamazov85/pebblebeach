@@ -2,7 +2,7 @@
 title: To my suitcase
 teaser: What do they call this in your language, Dear? This hard-shell resolve, this stiff upper zip?
 author: Adam
-date: oct 9 2020
+date: oct 2 2020
 featured: false
 imageUrl: ../images/to-my-suitcase.jpg
 ---

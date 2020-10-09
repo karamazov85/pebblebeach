@@ -2,7 +2,7 @@
 title: The airstrip
 teaser: The bristly line down there, to refuel the fire.
 author: Adam
-date: oct 9 2020
+date: oct 4 2020
 featured: false
 imageUrl: ../images/the-airstrip.jpg
 ---

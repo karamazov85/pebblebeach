@@ -2,7 +2,7 @@
 title: Where TV goes to die
 teaser: It's usually in Season Thee that a series becomes The Slope.
 author: Adam Farkas
-date: july 12 2020
+date: july 2 2020
 featured: false
 imageUrl: ../images/where-TV-goes-to-die.jpg
 ---
