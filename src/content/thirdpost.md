@@ -1,6 +1,6 @@
 ---
 title: Zen
-teaser: It's amazing how much pain can simply be exhaled...
+teaser: It's amazing how much pain can simply be exhaled.
 author: Adam
 date: july 19 2020
 featured: true

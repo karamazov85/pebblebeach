@@ -41,19 +41,21 @@
 .quote-teaser-container {
   display: flex;
   flex-wrap: nowrap;
+  align-self: flex-start;
   padding-top: 20px;
   padding-left: 5px;
   padding-right: 5px;
 }
 
-.quote-sign {
-  position: relative;
-  top: -20%;
-  left: 0%;
+.quote-sign-container {
   font-family: "Libre Baskerville", serif;
-  font-size: 4rem;
+  font-size: 3rem;
   opacity: 0.3;
   color: #40739e;
+}
+
+.goquote {
+  height: auto;
 }
 
 .teaser {
@@ -87,13 +89,9 @@
   color: #f5f6fa;
 }
 
-.post-card:hover .quote-sign {
+.post-card:hover .quote-sign-container {
   color: #f5f6fa;
   opacity: 1;
-}
-
-.post-card:hover .quote-sign > svg {
-  color: #ffffff;
 }
 
 @media only screen and (max-width: 604px) {

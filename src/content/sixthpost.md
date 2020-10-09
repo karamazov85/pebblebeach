@@ -1,6 +1,6 @@
 ---
 title: Moon
-teaser: My moon is at her apogee, the farthest she can get from me...
+teaser: My moon is at her apogee, the farthest she can get from me.
 author: Adam
 date: july 18 2020
 featured: false

@@ -1,6 +1,6 @@
 ---
 title: A day in England
-teaser: An award-winning postal worker went to shop...
+teaser: An award-winning postal worker went to shop.
 author: Adam
 date: july 14 2020
 featured: false

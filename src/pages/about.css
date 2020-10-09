@@ -10,6 +10,7 @@
 
 .about-container {
   width: 400px;
+  height: 60%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -19,6 +20,7 @@
   border-radius: 8px;
   padding: 50px 50px;
   margin-left: 10%;
+  overflow: hidden;
 }
 
 h1 {
@@ -47,7 +49,6 @@ h1 {
   height: 100%;
   opacity: 0.8;
   margin-right: 10px;
-  color: ;
 }
 
 .insta-container > a:link,

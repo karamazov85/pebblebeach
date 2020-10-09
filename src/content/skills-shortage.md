@@ -1,6 +1,6 @@
 ---
 title: Skills shortage
-teaser: More and more of us do not want to be engineers...
+teaser: More and more of us do not want to be engineers.
 author: Adam
 date: oct 5 2020
 featured: false

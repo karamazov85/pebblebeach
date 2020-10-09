@@ -15,9 +15,9 @@ const PostList = () => {
                 <div className="post-card-text-container">
                   <h2 className="postlist-post-title">{post.title}</h2>
                   <div className="quote-teaser-container">
-                    <h1 className="quote-sign">
+                    <div className="quote-sign-container">
                       <GoQuote />
-                    </h1>
+                    </div>
                     <div>
                       <p className="teaser">{post.teaser}</p>
                     </div>

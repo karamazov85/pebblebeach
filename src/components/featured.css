@@ -1,29 +1,16 @@
 .featured-container {
   height: 50vh;
-  position: relative;
-  background-color: rgb(245, 246, 250, 0.2);
-}
-
-.featured-container::after {
-  content: "";
-  position: absolute;
-  top: 0px;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
-  opacity: 0.9;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
   background-image: url("../images/pebbles.jpg");
-  background-position: center;
   background-size: cover;
-  z-index: -1;
+  overflow: hidden;
 }
 
 .featured-text {
-  position: absolute;
-  top: calc((50vh - 295px) / 2);
-  left: 10%;
   overflow: hidden;
-  height: 250px;
+  height: 75%;
   width: 40%;
   min-width: 356px;
   display: flex;
@@ -32,6 +19,7 @@
   box-shadow: -5px 3px 25px rgb(47, 54, 64, 0.3);
   border-radius: 8px;
   padding: 20px 30px;
+  margin-left: 40px;
 }
 
 .featured-quote-sign {
@@ -77,26 +65,24 @@ a:active {
 
 @media only screen and (max-width: 870px) {
   .featured-text {
-    height: 250px;
-    top: calc((50vh - 290px) / 2);
     padding: 20px 30px;
   }
 }
 
 @media only screen and (max-width: 604px) {
+  .featured-container {
+    justify-content: center;
+  }
+
   .featured-text {
     align-items: center;
-    left: 50%;
-    transform: translateX(-50%);
-    height: 200px;
-    top: calc((50vh - 240px) / 2);
+    margin-left: 0px;
   }
 }
 
 @media only screen and (max-width: 445px) {
   .featured-text {
     min-width: 280px;
-    top: calc((50vh - 240px) / 2);
   }
 
   .featured-body {
@@ -112,9 +98,7 @@ a:active {
 
 @media only screen and (max-width: 361px) {
   .featured-text {
-    height: 180px;
     width: 220px;
-    top: calc((50vh - 200px) / 2);
     padding: 10px 10px;
   }
 

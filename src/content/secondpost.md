@@ -1,6 +1,6 @@
 ---
 title: Let it be
-teaser: you don’t have to will it into existence...
+teaser: You don’t have to will it into existence.
 author: Eve
 date: july 16 2020
 featured: false

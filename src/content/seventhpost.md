@@ -1,6 +1,6 @@
 ---
 title: Cookies
-teaser: To find a spare kitchen in the mind...
+teaser: Find a spare kitchen in the mind.
 author: Adam
 date: july 17 2020
 featured: false

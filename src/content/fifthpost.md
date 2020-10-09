@@ -1,6 +1,6 @@
 ---
 title: freedom
-teaser: in the sphere of all-out freedom, freedom becomes unthinkable...
+teaser: in the sphere of all-out freedom, freedom becomes unthinkable.
 author: Adam
 date: july 13 2020
 featured: false
