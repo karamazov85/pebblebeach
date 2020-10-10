@@ -32,7 +32,7 @@ But the idea of a spider or two
 Instantly, as any smart creature,  
 Thinking and pushing it through,
 
-Nailing a web with a good return  
+Acing a web with a good return  
 To show their kids it’s worth it,  
 Makes more sense at any turn  
 Than the evolutionary bullshit.

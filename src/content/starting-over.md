@@ -13,7 +13,7 @@ Presents and luck tend
 to ring alarms in me.
 
 And so I keep upending  
-Hitting delete and reset  
+Hitting <em>delete</em> and <em>reset</em>  
 on anything that’s getting  
 too easy, cosy and set.
 

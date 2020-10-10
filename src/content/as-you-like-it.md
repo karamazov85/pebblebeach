@@ -11,9 +11,9 @@ All the world is a stage
 We’re all merely players
 
 But does it sometimes feel like  
-sans eyes, sans taste, sans everything  
+<em>sans eyes, sans taste, sans everything</em>  
 has snuck decades forward, in fact,  
-it’s sans doubt now King?
+it’s <em>sans doubt</em> now King?
 
 All the world is an app  
 We’re all merely users

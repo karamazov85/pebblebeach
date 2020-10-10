@@ -8,6 +8,6 @@ imageUrl: ../images/the-airstrip.jpg
 ---
 
 It’s where I take off at the crack of daylight,  
-Where my madness lands in the dead of night  
+Where my madness lands in the dead of night.  
 The bristly line down there, to refuel the fire  
 – yours and mine. An Airstrip Named Desire.

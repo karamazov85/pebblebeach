@@ -21,7 +21,7 @@ snapped your fragile zip-lock dead in anger,
 
 I didn’t take United’s replacement offer.  
 Without you, I could carry on no longer  
-– my own shell in shambles, my load ever so sore.
+– my own shell a shambles, my load ever so sore.
 
 What do they call this in your language, Dear?  
 This <em>hard-shell resolve</em>, this <em>stiff upper zip</em>?  

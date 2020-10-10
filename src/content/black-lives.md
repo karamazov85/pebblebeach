@@ -2,9 +2,9 @@
 title: Black Lives
 teaser: The first black person I ever met became a friend in five minutes.
 author: Adam Farkas
-date: july 2 2020
+date: sept 17 2020
 featured: false
-imageUrl: ../images/where-TV-goes-to-die.jpg
+imageUrl: ../images/black-lives.jpg
 ---
 
 The first black person I ever met  
@@ -49,7 +49,7 @@ giggling like I’d come from outer space
 and their dads were asking stuff about  
 the English Premier League.
 
-And I thought
+And I thought  
 <em>black lives, white lives</em>, all this bullshit  
 colour-coding of human beings  
 will one day be shrouded in the past  
