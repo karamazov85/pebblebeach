@@ -1,5 +1,5 @@
 .featured-container {
-  height: 50vh;
+  height: 400px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -10,33 +10,33 @@
 
 .featured-text {
   overflow: hidden;
-  height: 75%;
-  width: 40%;
+  height: 70%;
+  width: 400px;
   min-width: 356px;
   display: flex;
   align-items: center;
   background-color: rgb(245, 246, 250, 0.8);
   box-shadow: -5px 3px 25px rgb(47, 54, 64, 0.3);
   border-radius: 8px;
-  padding: 20px 30px;
-  margin-left: 40px;
+  padding: 20px 40px;
+  margin-left: 100px;
 }
 
 .featured-quote-sign {
   position: relative;
-  top: -10%;
+  top: -11%;
   left: 0%;
   font-family: "Libre Baskerville", serif;
   color: #2f3640;
-  font-size: 4rem;
+  font-size: 3rem;
   opacity: 0.3;
   color: #40739e;
   z-index: 0;
-  margin-right: 5px;
+  margin-right: 0px;
 }
 
 .featured-body {
-  max-width: 356px;
+  max-width: 260px;
   font-family: "Montserrat", serif;
   font-weight: 400;
   font-size: 1rem;
@@ -63,12 +63,6 @@ a:active {
   margin-bottom: 0px;
 }
 
-@media only screen and (max-width: 870px) {
-  .featured-text {
-    padding: 20px 30px;
-  }
-}
-
 @media only screen and (max-width: 604px) {
   .featured-container {
     justify-content: center;
@@ -76,43 +70,59 @@ a:active {
 
   .featured-text {
     align-items: center;
+    height: 280px;
+    width: 300px;
     margin-left: 0px;
+  }
+
+  .featured-quote-sign {
+    top: -10%;
+    font-size: 3rem;
+    margin-right: 0px;
   }
 }
 
 @media only screen and (max-width: 445px) {
   .featured-text {
-    min-width: 280px;
+    max-width: 260px;
+    height: 240px;
   }
 
   .featured-body {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
+    max-width: 220px;
   }
 
   .featured-quote-sign {
-    top: -20%;
-    font-size: 3rem;
+    top: -10%;
+    font-size: 2.5rem;
     margin-right: 0px;
+  }
+
+  .featured-link-text {
+    font-size: 0.6rem;
   }
 }
 
 @media only screen and (max-width: 361px) {
   .featured-text {
-    width: 220px;
-    padding: 10px 10px;
+    width: 200px;
+    height: 240px;
+    padding-left: 20px;
   }
 
   .featured-body {
     font-size: 0.8rem;
+    width: 200px;
   }
 
   .featured-quote-sign {
-    top: -20%;
-    font-size: 3rem;
+    top: -10%;
+    font-size: 2.5rem;
     margin-right: 0px;
   }
 
   .featured-link-text {
-    font-size: 0.7rem;
+    font-size: 0.6rem;
   }
 }

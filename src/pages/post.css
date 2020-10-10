@@ -1,16 +1,17 @@
 .post {
   width: 100%;
-  min-height: 90vh;
+  min-height: 100vh;
   padding-top: 0px;
-  padding-bottom: 20px;
+  padding-bottom: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 
 .poem-container {
-  padding-bottom: 40px;
-  padding-top: 40px;
+  padding-bottom: 0px;
+  padding-top: 10px;
 }
 
 .poem-title {
@@ -37,7 +38,6 @@
 
 @media only screen and (max-width: 650px) {
   .post {
-    min-height: 50vh;
     justify-content: flex-start;
   }
   .poem-container {

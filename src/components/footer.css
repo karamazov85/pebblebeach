@@ -1,7 +1,7 @@
 .footer {
-  position: fixed;
-  bottom: 0%;
   width: 100%;
+  position: absolute;
+  bottom: 0%;
   text-align: center;
   height: 80px;
   display: flex;
@@ -19,4 +19,10 @@ h6 {
   font-family: "Libre Baskerville", serif;
   font-weight: 300;
   color: #2f3640;
+}
+
+@media only screen and (max-width: 400px) {
+  h6 {
+    font-size: 0.6rem;
+  }
 }

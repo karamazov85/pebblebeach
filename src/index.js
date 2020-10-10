@@ -11,16 +11,18 @@ import Footer from "../src/components/Footer";
 import NotFound from "./pages/NotFound";
 
 ReactDOM.render(
-  <Router>
-    <Navbar />
-    <Switch>
-      <Route exact path="/" component={Home} />
-      <Route exact path="/about" component={About} />
-      <Route exact path="/post/:id" render={(props) => <Post {...props} />} />
-      <Route exact path="/404" component={NotFound} />
-    </Switch>
-    <Footer />
-  </Router>,
+  <div className="layout">
+    <Router>
+      <Navbar />
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/about" component={About} />
+        <Route exact path="/post/:id" render={(props) => <Post {...props} />} />
+        <Route exact path="/404" component={NotFound} />
+      </Switch>
+      <Footer />
+    </Router>
+  </div>,
   document.getElementById("root")
 );
 
