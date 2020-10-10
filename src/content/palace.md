@@ -2,7 +2,7 @@
 title: Palace
 teaser: I’m building a palace with softly echoing walls.
 author: Adam
-date: oct 10 2020
+date: oct 9 2020
 featured: false
 imageUrl: ../images/palace.jpg
 ---

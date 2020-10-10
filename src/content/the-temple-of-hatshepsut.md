@@ -2,7 +2,7 @@
 title: The Temple of Hatshepsut
 teaser: I was mobbed by a pack of Arab girls at Hatshepsut’s palace at high noon.
 author: Adam Farkas
-date: july 15 2020
+date: july 14 2020
 featured: false
 imageUrl: ../images/the-temple-of-hatshepsut.jpg
 ---
@@ -14,8 +14,8 @@ Before I could blink, they formed a queue
 
 In clueless awe, with gobsmacked gallantry  
 I played my role as statue, character of fiction  
-And answered questions – No, I’m afraid, we  
-vampires are not of the Muslim persuasion
+And answered questions – <em>No, I’m afraid, we  
+vampires are not of the Muslim persuasion</em>
 
 While basking in my minutes of faux-fame  
 I pictured Hatshepsut standing where we stood  
