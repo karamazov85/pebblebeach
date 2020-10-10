@@ -1,4 +1,5 @@
 import React from "react";
+import { useEffect } from "react";
 import { Redirect } from "react-router-dom";
 import Markdown from "react-markdown";
 import postlist from "../posts.json";
@@ -8,6 +9,10 @@ import TwitterButton from "../components/TwitterButton";
 import WhatsappButton from "../components/WhatsappButton";
 
 const Post = ({ match }) => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const validId = parseInt(match.params.id);
 
   if (!validId) {
