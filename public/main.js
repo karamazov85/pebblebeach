@@ -76,28 +76,5 @@ const getPosts = () => {
   return;
 };
 
-// const dirPathPages = path.join(__dirname, "../src/pages/content");
-// let pageList = [];
-
-// const getPages = () => {
-//   fs.readdir(dirPathPages, (err, files) => {
-//     if (err) {
-//       return console.log("Failed to list contents of dir" + err);
-//     }
-//     files.forEach((file, i) => {
-//       let page;
-//       // node.js code
-//       fs.readFile(`${dirPathPages}/${file}`, "utf8", (err, contents) => {
-//         page = {
-//           content: contents,
-//         };
-//         pageList.push(page);
-//         let data = JSON.stringify(pageList);
-//         fs.writeFileSync("src/pages.json", data); // give a path and a filename you want to call it, then write the data JSON
-//       });
-//     });
-//   });
-//   return;
-// };
 
 getPosts();
